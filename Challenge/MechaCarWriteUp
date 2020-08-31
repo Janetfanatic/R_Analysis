@@ -1,0 +1,39 @@
+Multiple Linear Regression Written Analysis
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Is the slope of the linear model considered to be zero? Why or why not?
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+We do this to predict the future influence of these variable of MPG.
+R-squared is the coefficient of determination and predicts probability that future model will appear similar.
+R-squared is 0.6937
+2 variables are rejected and 2 are accepted for this hypothesis.
+Low p-value <0.05:yes there is a significant relationship
+The R2 value is greater than 0.5 and shows a fairly close fit around the line of regression.
+The data is not random and it is linear.
+Because these values reject the null hypothesis spolier angle and AWD and accept it for both ground clearance and vehicle length influence mpg, spolier angle and AWD positively influence mpg.
+The slope of the model is not considered to be zero because the residual median is 1.562
+
+Summary Statistics Written Analysis
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
+Overall Yes, it meets the speifications as the variance is 76.23459 but Lot3 is of great concern as it is above 100 with a value of 220.
+
+Statistical Difference Model
+interpretation and findings for the t-test results
+The sample mean is less than 1500 so the alternative hypothesis is true.
+The sample mean of subset Lot 1 is also less than 1500.
+The sample mean of subset Lot 2 is also less than 1500.
+The sample mean of subset Lot 3 is also less than 1500.
+
+Statistical Study Design
+
+Conduct a consumer satisfaction survey utilizing a Likert scale.
+It will be a randomized test drive of cars from two different manufactuers but similar models (SUV) and year (2021).
+The survey will be a 5 item, 20 question survey taken after the test drive.
+the survey will ask questions about seat comfort, interior design, design of the exterior, exterior color choice, road navigation, etc.
+Utilize a t-test and compare the means scores.
+Utilized group by or subset ro look at individual questions.
+
+Hypothesis
+Null- Mecha Cars will out perform Ford on the consumer satisfaction survey.
+Alternative- Mecha cars will not out perform Ford on the consumer satisfaction survey.
+
